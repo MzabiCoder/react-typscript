@@ -35,9 +35,9 @@ type Props = {
                <Link selectedPage={selectedPage} setSelectedPage={setSelectedPage} page="Contact Us"/>
             </div>
 
-            <div class={`${flexBetween} gap-8`}>
+            <div class={`${flexBetween} gap-8 action-button`}>
                <p>Sign In</p>
-               <ActionButton selectedPage={selectedPage}>Become a member</ActionButton>
+               <ActionButton id="fff" selectedPage={selectedPage}>Become a member</ActionButton>
             </div>
 
            </div>

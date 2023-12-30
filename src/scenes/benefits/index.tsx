@@ -69,7 +69,7 @@ const Benefits = ({setSelectedPage}:Props) => {
                      />
                   ))}
                 </motion.div>
-                <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
+                <div className="mt-16 items-center justify-between gap-20 md:mt-28">
                   <img 
                     className="mx-auto"
                     src={BenefitsPageGraphic} alt="" />
@@ -90,7 +90,7 @@ const Benefits = ({setSelectedPage}:Props) => {
                       <p className="my-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit enim reiciendis aperiam laboriosam iusto cum quam, aliquid, similique laborum voluptate explicabo voluptatum, nihil doloremque neque!</p>
                     </div>
                     <div className="relative mt-16">
-                      <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
+                      <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles action-button">
                         <ActionButton setSelectedPage={SelectedPage}>
                           Join Now
                         </ActionButton>
